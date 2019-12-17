@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Voper">
+        <attr name="voper_auto" format="boolean"/>
+        <attr name="voper_loop" format="boolean"/>
+        <attr name="voper_rate" format="integer"/>
+        <attr name="voper_time" format="integer"/>
+        <attr name="voper_scale" format="float"/>
+        <attr name="voper_indicator" format="string"/>
+        <attr name="lifecycle" format="boolean"/>
+        <attr name="android:orientation" />
+    </declare-styleable>
+</resources>
