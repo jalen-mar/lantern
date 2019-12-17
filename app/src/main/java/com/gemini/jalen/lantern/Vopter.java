@@ -1,4 +1,4 @@
-package com.jalen.lantern;
+package com.gemini.jalen.lantern;
 
 import android.view.View;
 import android.view.ViewGroup;

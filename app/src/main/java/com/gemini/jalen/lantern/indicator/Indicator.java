@@ -1,4 +1,4 @@
-package com.jalen.lantern.indicator;
+package com.gemini.jalen.lantern.indicator;
 
 import android.view.View;
 

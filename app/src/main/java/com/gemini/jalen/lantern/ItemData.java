@@ -1,4 +1,4 @@
-package com.jalen.lantern;
+package com.gemini.jalen.lantern;
 
 public class ItemData<T> {
     private T data;

@@ -1,4 +1,4 @@
-package com.jalen.lantern;
+package com.gemini.jalen.lantern;
 
 import android.content.Context;
 import android.content.res.TypedArray;
