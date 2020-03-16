@@ -1,2 +1,2 @@
-# Voper
+# lantern
 View Looper for android
