@@ -37,7 +37,7 @@ public class IndicatorManager extends LinearLayout implements ViewPager.OnPageCh
     public void redo(PagerAdapter pagerAdapter){
         int count = pagerAdapter.getCount() - invalid;
         int childCount = getChildCount();
-        boolean isAdded = count > childCount;
+        boolean isAdded = Math.abs(count) > childCount;
         if(indicator != null) {
             indicator.unselected();
             indicator = null;
