@@ -139,6 +139,7 @@ public class Voper extends ViewPager implements Runnable, LifecycleObserver {
             case MotionEvent.ACTION_CANCEL :
             case MotionEvent.ACTION_UP : {
                 if (run != null && run) {
+                    handler.removeCallbacks(this);
                     handler.postDelayed(this, rate);
                 }
             }
@@ -168,6 +169,7 @@ public class Voper extends ViewPager implements Runnable, LifecycleObserver {
         } else {
             setCurrentItem(position, true);
         }
+        handler.removeCallbacks(this);
         handler.postDelayed(this, rate);
     }
 
@@ -230,6 +232,7 @@ public class Voper extends ViewPager implements Runnable, LifecycleObserver {
         }
         if (adapter.auto()) {
             run = true;
+            handler.removeCallbacks(this);
             handler.postDelayed(this, rate);
         }
     }
